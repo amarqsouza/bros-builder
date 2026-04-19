@@ -1,10 +1,10 @@
 # SCRIPT DE CRIAÇÃO AUTOMATIZADA DO BR-OS VIA LIVE-BUILD:
 Esse é o script usado pelo projeto Br OS na criação de suas Imagens ISO's.
 O Script é livre para uso, modificação e redistribuição, porém, os arquivos de branding são apenas para exemplo e devem ser substituídos pelos seus próprios arquivos de branding.
-Ao executar este script você não obterá uma cópia perfeita do Br OS, isso acontece porque toda a automação e muitas funcionalidades são adicionadas via shel interativo através de outras ferramentas de automação, mas você obterá uma versão básica, que servirá de ponto de partida para sua própria personalização.
+Ao executar este script você não obterá uma cópia perfeita do Br OS, isso acontece porque toda a automação e muitas funcionalidades são adicionadas via shell interativo através de outras ferramentas de automação, mas você obterá uma versão básica, que servirá de ponto de partida para sua própria personalização.
 Este script foi criado pensando no Br OS, isso faz com que ele tenha funcionalidades bem específicas, porém, nada impede o usuário de o personalizar da forma que achar melhor.
 
-Obs.: Concelho de amigo: Crie seu projeto, o amadureça, e só publique quando sentir:
+Obs.: Conselho de amigo: Crie seu projeto, o amadureça, e só publique quando sentir:
 01 - Que ele esta adicionando algo de bom à comunidade,
 02 - Que você tem vocação para manter o projeto por anos.
 
@@ -46,3 +46,5 @@ export DIR_CREATE_LIVE="${WORKDIR}/BR-OS"
 # Depois
 export DIR_CREATE_LIVE="${WORKDIR}/meu-debian"
 ```
+
+Use com sabedoria!
