@@ -1,0 +1,8 @@
+calamares
+calamares-settings-debian
+grub-efi
+grub-efi-amd64
+#grub-efi-amd64-signed
+#shim-signed
+#efibootmgr
+

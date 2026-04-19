@@ -1,0 +1,7 @@
+default 0
+color cyan/blue white/blue
+splashimage /boot/grub/splash.xpm.gz
+
+LINUX_LIVE
+
+MEMTEST

@@ -1,0 +1,9 @@
+PRETTY_NAME="Br OS"
+NAME="Br OS"
+VERSION_ID="13"
+VERSION="13 (dira)"
+VERSION_CODENAME="dira"
+ID=bros
+HOME_URL="https://www.br-os.com/"
+SUPPORT_URL="https://www.br-os.com/dicas/"
+BUG_REPORT_URL="https://br-os.com/contato/"

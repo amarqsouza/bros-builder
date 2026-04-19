@@ -1,0 +1,39 @@
+---
+componentName:   bros
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,580px
+windowPlacement: center
+
+strings:
+    productName:         Br OS
+    shortProductName:    Br OS
+    version:             13
+    shortVersion:        13
+    versionedName:       Br OS 13
+    shortVersionedName:  Br OS 13
+    bootloaderEntryName: Br OS
+    productUrl:          https://br-os.com
+    supportUrl:          https://www.br-os.com/contato
+    knownIssuesUrl:      https://bugs.debian.org
+    releaseNotesUrl:     https://www.debian.org/releases/bookworm/releasenotes
+    donateUrl:           https://www.debian.org
+
+sidebar: widget
+navigation: widget
+
+images:
+    productLogo:         "bros-logo.png"
+    productIcon:         "bros-logo.png"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   SidebarBackground:    "#26475b"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#265370"
+
+slideshowAPI: 2
