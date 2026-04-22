@@ -72,7 +72,7 @@ export ISO_NAME="bros"
 export CODENAME="dira"
 export ISO_PUBLISHER="Anderson Marques"
 export DEBIAN_VERSION="trixie"
-export REPO_ENABLED="main contrib non-free non-free-firmware"
+# export REPO_ENABLED="main contrib non-free non-free-firmware"
 export USERNAME="bros"
 # Modo interativo chroot 0=on 1=off
 export INTERACTIVE="0"
@@ -101,7 +101,7 @@ fi
 
 cat << EOF
 +---------------------------------------------------------+
-| Bem vindo ao live-build do Br OS 🍄‍🇧🇷               |
+| Bem vindo ao live-build do Br OS 🍄‍🇧🇷                   |
 | Vamos começar a configuração do live-build...           |
 | Este é um processo que pode demorar dependendo da conf  |
 | de sua máquina e banda.                                 |
@@ -183,8 +183,8 @@ lb config noauto \
    --image-name "$ISO_NAME" \
    --linux-flavours amd64 \
    --distribution "$DEBIAN_VERSION" \
-   --archive-areas "$REPO_ENABLED" \
-   --parent-archive-areas "$REPO_ENABLED" \
+   --archive-areas "main contrib non-free non-free-firmware" \
+   --parent-archive-areas "main contrib non-free non-free-firmware" \
    --parent-debian-installer-distribution "$DEBIAN_VERSION" \
    --debian-installer-gui false \
    --debian-installer none \
